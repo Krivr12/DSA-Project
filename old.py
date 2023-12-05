@@ -431,7 +431,7 @@ def start_button_event():
         width = 300,
         fg_color = ('#F875AA', '#8758FF'),
         hover_color = ('#AEDEFC', '#5CB8E4'),
-        text = '2048',
+        text = 'Super Mario',
         command = game3_event)
     game3.pack(
         side = 'right',
@@ -454,8 +454,7 @@ def start_button_event():
         padx = 20        )
     # ------------------------------------------------------------------------------------------------------------------------------------
     def game5_event():
-        # os.startfile('Super Mario\Mario.exe') 
-        pass
+        os.startfile('GAMES\\2048\\2048.exe') 
     
     game5 = ctk.CTkButton(
         master = game_frame2,
@@ -463,15 +462,14 @@ def start_button_event():
         width = 300,
         fg_color = ('#F875AA', '#8758FF'),
         hover_color = ('#AEDEFC', '#5CB8E4'),
-        text = 'Super Mario',
+        text = '2048',
         command = game5_event )
     game5.pack(
         side = 'right',
         padx = 20        )
     # ------------------------------------------------------------------------------------------------------------------------------------
     def game6_event():
-        pass
-        # os.startfile('Bomberman-master\dist\menu.exe') 
+        os.startfile('GAMES\Tetris Game-20231204T145459Z-001\Tetris Game\Tetris.exe') 
         
     
     game6 = ctk.CTkButton(
@@ -480,7 +478,7 @@ def start_button_event():
         width = 300,
         fg_color = ('#F875AA', '#8758FF'),
         hover_color = ('#AEDEFC', '#5CB8E4'),
-        text = 'bomberman',
+        text = 'Tetris',
         command = game6_event )
     game6.pack(
         side = 'right',
@@ -503,8 +501,8 @@ def start_button_event():
         padx = 20        )
     # ------------------------------------------------------------------------------------------------------------------------------------
     def game8_event():
-    #    os.startfile('DonkeyKong-master\dist\DonkeyKong_KendraTam_PythonProgrammi.exe')
-        pass
+        os.startfile('GAMES\Tetris Game\Tetris.exe')
+        
     
     game8 = ctk.CTkButton(
         master = game_frame3,
@@ -512,7 +510,7 @@ def start_button_event():
         width = 300,
         fg_color = ('#F875AA', '#8758FF'),
         hover_color = ('#AEDEFC', '#5CB8E4'),
-        text = 'Donkey kong',
+        text = 'Tetris 2',
         command = game8_event )
     game8.pack(
         side = 'right',
