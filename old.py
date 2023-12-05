@@ -422,8 +422,7 @@ def start_button_event():
         padx = 20        )
     # ------------------------------------------------------------------------------------------------------------------------------------
     def game3_event():
-        pass
-        # os.startfile('2048\dist\Game_2048.exe') 
+        os.startfile('GAMES\Super Mario\dist\Mario.exe') 
 
     game3 = ctk.CTkButton(
         master = game_frame1,
