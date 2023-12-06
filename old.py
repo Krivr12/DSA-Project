@@ -6,9 +6,12 @@ from PIL import ImageTk, Image
 import pandas as pd
 import csv
 
+
+
 Landing_page = ctk.CTk()
 Landing_page.title("Arcade")
 Landing_page.geometry("1366x768")
+ctk.set_appearance_mode('dark')
 
 
 def go_back():
@@ -355,7 +358,7 @@ def start_button_event():
 
     # ------------------------------------------------------------------------------------------------------------------------------------
     def game6_event():
-        os.startfile("GAMES\Tetris Game-20231204T145459Z-001\Tetris Game\Tetris.exe")
+        os.startfile("GAMES\Bomberman\dist\menu.exe")
 
     game6 = ctk.CTkButton(
         master=game_frame2,
@@ -363,15 +366,14 @@ def start_button_event():
         width=300,
         fg_color=("#F875AA", "#8758FF"),
         hover_color=("#AEDEFC", "#5CB8E4"),
-        text="Tetris",
+        text="Bomberman",
         command=game6_event,
     )
     game6.pack(side="right", padx=20)
 
     # ------------------------------------------------------------------------------------------------------------------------------------
     def game7_event():
-        # os.startfile('PacMan-Python-master\PacMan\dist\main.exe')
-        pass
+        os.startfile('GAMES\Tic-Tac-Toe-Game-In-Python-master\dist\Tic_Tac_Toe_Game.exe')
 
     game7 = ctk.CTkButton(
         master=game_frame3,
@@ -379,7 +381,7 @@ def start_button_event():
         width=300,
         fg_color=("#F875AA", "#8758FF"),
         hover_color=("#AEDEFC", "#5CB8E4"),
-        text="Pacman",
+        text="Tic Tac Toe",
         command=game7_event,
     )
     game7.pack(side="left", padx=20)
